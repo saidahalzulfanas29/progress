@@ -1,0 +1,210 @@
+p {text-align:justify; text-transform:capitalize; }
+.underline { text-decoration:underline; }
+
+h1 { 
+	font-size:18px;
+	background:#bbd7e1;
+	border-bottom:1px dotted red;
+	padding:12px;
+}
+
+body {
+	background:#e3e3e3;
+	background-image: url('bg.jpg');
+  	background-size: cover;
+}
+
+.tanggal {
+
+}
+
+.img {
+	float:left;
+	margin-right:8px;
+	width:230px;
+}
+
+
+.artikel {
+	margin-left:15px;
+	clear:both;
+}
+
+#header {
+	background:#000;
+	width:1080px;
+}
+
+#menu {
+	padding:5;
+	margin-top:0px;
+	-moz-box-shadow:inset 0px 1px 0px 0px #01385e;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #01385e;
+	box-shadow:inset 0px 1px 0px 0px #01385e;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #015398), color-stop(1, #01385e) );
+	background:-moz-linear-gradient( center top, #015398 5%, #01385e 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#015398', endColorstr='#01385e');
+	background-color:#015398;
+}
+
+.sub-menu {
+	margin:0;
+	padding:12px;
+}
+
+#menu li{
+		 list-style-type:none;
+		 display:inline-block;
+		 width:140px;
+		 margin:0px;
+	}
+	
+#menu .sub-menu li {
+		  list-style-type:none;
+		 display:inline-block;
+		 width:200px;
+		-moz-box-shadow:inset 0px 1px 0px 0px #abb2ff;
+		-webkit-box-shadow:inset 0px 1px 0px 0px #abb2ff;
+		box-shadow:inset 0px 1px 0px 0px #abb2ff;
+		background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #6ea4f5), color-stop(1, #1c1c1c) );
+		background:-moz-linear-gradient( center top, #6ea4f5 5%, #1c1c1c 100% );
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6ea4f5', endColorstr='#1c1c1c');
+		background-color:#6ea4f5;
+	}
+	
+#menu li a, #menu  ul.sub-menu li a {
+		 text-decoration:none;
+		 color:#fff;
+		 padding:5px;
+		 display:block;
+		 margin:0px;
+		 text-align:center;
+	}
+	
+#menu li a:hover {
+		 background:#01385e;
+		 color:#000;	
+	}
+	
+#menu li .sub-menu li a:hover {
+		 background:green;
+		 color:#fff;	
+	}
+	
+#menu li .sub-menu li a {
+		 color:#fff;
+		 border-bottom:2px solid green;
+	}
+	
+#menu li {
+	position:relative;
+}
+	
+#menu li .sub-menu {
+	position: absolute;
+	top:20px;
+	display:none;
+}
+	
+#menu li:hover .sub-menu {
+	display:block;
+	left:-13px;
+}
+
+#container {
+	width:1080px;
+	margin: 0 auto;
+	background:#fff;
+	border:1px solid #cecece;
+	border-radius:6px;
+	
+}
+
+
+#contentt {
+	width:750px;
+	float:left;
+	margin-left:15px;
+} 
+
+#sidebar {
+	width:300px;
+	float:right;
+	margin-right:10px;
+}
+
+#sidebar-left {
+	width:280px;
+	float:left;
+}
+
+.sidebar {
+	margin:0px 8px 0px 12px;
+}
+
+#sidebar .sidebar h2,  #sidebar-left .sidebar h2{
+	padding:11px;
+	margin-top:0px;
+	-moz-box-shadow:inset 0px 1px 0px 0px #a0db89;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #a0db89;
+	box-shadow:inset 0px 1px 0px 0px #a0db89;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3468ef), color-stop(1, #00599d) );
+	background:-moz-linear-gradient( center top, #3468ef 5%, #00599d 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3468ef', endColorstr='#00599d');
+	background-color:#3468ef;
+	font-size:15px;
+	color:#fff;
+	border-radius: 16px 0px 16px 0px;
+}
+
+
+#sidebar .sidebar ul {
+	margin-left:-26px;
+}
+
+#sidebar .sidebar li {
+	list-style-type:none;
+	border-bottom:1px dashed #cecece;
+}
+
+#sidebar .sidebar a {
+	text-decoration:none;
+}
+
+#sidebar .sidebar a:hover {
+	color:red;
+}
+
+#sidebar .sidebar li:hover {
+	background:#e3e3e3;
+}
+
+.banner {
+	width:99%;
+}
+
+.avatar {
+	float:left;
+	margin-right:4px;
+	width:55px;
+}
+
+.comment {
+	margin-top:0px;
+}
+
+#footer {
+	text-align:center;
+	padding:14px;
+	color:#fff;
+	padding:5;
+	margin-top:0px;
+	-moz-box-shadow:inset 0px 1px 0px 0px #01385e;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #01385e;
+	box-shadow:inset 0px 1px 0px 0px #01385e;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #015398), color-stop(1, #01385e) );
+	background:-moz-linear-gradient( center top, #015398 5%, #01385e 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#015398', endColorstr='#01385e');
+	background-color:#015398;
+	height:40px;
+}

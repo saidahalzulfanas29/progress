@@ -1,0 +1,1 @@
+SELECT no_pendaftaran, COUNT(*) no_pendaftaran FROM members GROUP BY no_pendaftaran HAVING COUNT(no_pendaftaran)  > 1

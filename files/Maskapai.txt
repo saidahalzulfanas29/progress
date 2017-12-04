@@ -1,0 +1,53 @@
+terima kasih banyak mas atas jawabannya...
+kira2 seperti ini web yg saya inginkan : 
+======================================================================================
+Tampilan Awal WEB berisi :
+1.News dari Maskapai/travel
+2.Syarat dan ketentuan sebagai agen
+3.Cara menjadi agen
+4.Pendaftaran Agen
+5.Kolom Login
+6.Sosial Media, facebook, twitter dan YM dll
+7.KontakLogin 3 tingkat :
+	1.Administrator (dapat merubah semua, input data karyawan)
+	2.Karyawan : 
+		a.input data agen baru
+		b.melihat data semua agen
+		c.input data deposit agen baru
+		d.melihat data semua deposit agen
+		e.input transaksi penjualan agen
+		f.melihat semua transaksi penjualan agen
+		g.dapat membuat laporan penjualan periodik
+		h.dapat membuat laporan penjualan per agen / perperiodik
+	3.Agen, setelah login dapat (hanya dapat melihat, tdk dapat merubah):
+		a.Melihat sisa saldo depositnya
+		b.Melihat transaksi miliknya
+		c.Melihat data deposit terakhir
+======================================================================================
+
+			Data Karyawan:
+				1.Nama
+				2.Alamat
+				3.Email
+				4.No. HP
+
+			Data Agen:
+				1.Nama
+				2.Alamat
+				3.Kota
+				4.No. HP
+				5.email
+
+			Data Deposit Agen:
+				1.Tanggal transfer
+				2.Nama Agen
+				3.Jumlah Transfer
+				4.Nama Bank
+
+			Data transaksi penjualan:
+				1.Tanggal Transaksi
+				2.Nama Maskapai
+				3.Rute
+				4.Kode Booking
+				5.Harga NTA
+				6.Nama Penumpang
